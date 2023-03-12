@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+.wrapper{
+border: 2px black solid;
+    width: 100%;
+    overflow-x: hidden;
+
+
+    background-color: dodgerblue;
+    height: border-box;
+
+}
+
+.head{
+    height: 150px;
+    font-size: 25px;
+    width: 1080px;
+    position: relative ;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1px;
+
+
+}
+.smallhead{
+
+
+    color: darkorange;
+}
+
+.headImg{
+
+    width: 50px;
+    height: 40px;
+}
+
+.icons{
+
+    position: relative;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    width: 1080px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+
+}
+.iconParts{
+
+    margin-left: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+
+.part1 {
+
+    width: 445px;
+    display: flex;
+    gap: 50px;
+}
+.part2{
+    width:500px;
+    display: flex;
+    gap: 50px;
+}
+.part3{
+    width:500px;
+    display: flex;
+    gap: 50px;
+}
+
+
+img {
+    height:100px;
+
+    border-radius: 65%;
+
+
+}
+.smbutton button{
+
+    position: absolute;
+    left: 723px;
+
+height: 70px;
+width: 100px;
+
+
+}
+
+.bticon{
+    border-radius: 67%;
+}
+#more{
+
+    margin-left: 400px;
+
+
+}
+
+button:hover{
+
+    transform: scale(1.09);
+
+
+}
